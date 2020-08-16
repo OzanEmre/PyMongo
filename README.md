@@ -19,6 +19,7 @@ Mongo bash on docker
 > db.createUser({user: "testuser", pwd: "qwert1234", roles:[{ role: "read", db: "testdb" }, { role: "readWrite", db: "testdb" }]})
 > db.auth("testuser","qwert1234")
 
-Sources: https://api.mongodb.com/python/current/tutorial.html
-https://medium.com/@MicroPyramid/mongodb-crud-operations-with-python-pymongo-a26883af4d09
-https://www.w3schools.com/python/python_mongodb_getstarted.asp
+Resources: 
+- https://api.mongodb.com/python/current/tutorial.html
+- https://medium.com/@MicroPyramid/mongodb-crud-operations-with-python-pymongo-a26883af4d09
+- https://www.w3schools.com/python/python_mongodb_getstarted.asp
